@@ -9,18 +9,34 @@ function Login() {
   return (
     <Container
       fluid={true}
-      className="bg-dark text-center row h-100"
+      className="bg-dark text-center d-flex align-items-center justify-content-center"
       style={{ minHeight: "100vh" }}
     >
-      <div className="m-auto text-center display-3 text-light">
-        Welcome to my React Spotify Player
+      <div className="row h-100">
+        <div
+          className="display-3 text-light text-center"
+          style={{ padding: "5rem" }}
+        >
+          Welcome to my React Spotify Player
+        </div>
+        <div className="display-6 text-light text-center">
+          By: Matthew Salamack
+        </div>
+        <h6
+          className=" blockquote-footer text-light text-center "
+          style={{ margin: "2rem 0rem" }}
+        >
+          Huge Thanks to Web Dev Simplified for the guide on how to use the
+          Spotify API
+        </h6>
+        <a
+          className="col-sm-12 mx-auto w-25 btn btn-success btn-lg "
+          style={{ margin: "2rem " }}
+          href={AUTH_URL}
+        >
+          Login With Spotify
+        </a>
       </div>
-      <a
-        className="m-auto w-25 btn btn-success btn-lg btn-block"
-        href={AUTH_URL}
-      >
-        Login With Spotify
-      </a>
     </Container>
   );
 }
