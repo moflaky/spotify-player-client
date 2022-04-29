@@ -25,7 +25,6 @@ export default function Dashboard({ code }) {
 
   useEffect(() => {
     if (!playingTrack) return;
-
     axios
       .get("https://react-spotify-player-server.herokuapp.com/lyrics", {
         params: {
