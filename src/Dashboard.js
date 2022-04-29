@@ -99,6 +99,9 @@ export default function Dashboard({ code }) {
             style={{
               whiteSpace: "pre",
               fontSize: "40px",
+              maxWidth: "100%",
+              margin: "1rem",
+              wordWrap: "normal",
             }}
           >
             {lyrics}
