@@ -100,7 +100,7 @@ export default function Dashboard({ code }) {
               whiteSpace: "pre",
               fontSize: "20px",
               maxWidth: "80%",
-              margin: "1rem",
+              margin: "auto",
               wordWrap: "normal",
             }}
           >
