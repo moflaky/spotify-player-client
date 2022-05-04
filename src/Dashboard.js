@@ -98,8 +98,8 @@ export default function Dashboard({ code }) {
             className="text-light text-center"
             style={{
               whiteSpace: "pre",
-              fontSize: "40px",
-              maxWidth: "100%",
+              fontSize: "20px",
+              maxWidth: "80%",
               margin: "1rem",
               wordWrap: "normal",
             }}

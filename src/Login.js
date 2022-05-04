@@ -29,6 +29,11 @@ function Login() {
           Huge Thanks to Web Dev Simplified for the guide on how to use the
           Spotify API
         </h6>
+        <h6 className="text-light text-center " style={{ margin: "2rem 0rem" }}>
+          Note: I could not get a quota extension for the Spotify API without a
+          significant user base. So this will not play music for users who are
+          not added to the whitelist. But I ensure it works!
+        </h6>
         <a
           className="col-sm-12 mx-auto w-25 btn btn-success btn-lg "
           style={{ margin: "2rem " }}
