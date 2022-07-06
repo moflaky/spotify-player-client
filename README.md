@@ -6,11 +6,9 @@ This spotify web player app connects to the spotify web api and allows user to c
 
 # Technical Skills
 
-* Programming Languages: HTML, CSS, JavaScript, Java, Python
-* Libraries & Frameworks: Node, Express, React, TailwindCSS, MaterialUI
-* Database: SQL, MongoDB
-* Tools & Platforms: Git, Heroku, AWS, Pandas
-* Design: Adobe Illustrator, Photoshop
+* Programming Languages: HTML, CSS, JavaScript
+* Libraries & Frameworks: React
+* Tools & Platforms: Git, Heroku
 
 # Contact Information
 
